@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    background-color: rgb(217, 190, 241);
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.h1 {
+    color: rgb(94, 20, 163);
+    background-color: beige;
+
+    grid-column: 2/4;
+    text-align: center;
+}
+
+.section1 {
+    width: 100%;
+    background-color: rgb(217, 190, 241);
+
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+
+}
+
+.pSection1 {
+    background-color: beige;
+
+    grid-column: 3/9;
+    grid-row: 1/21;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(217, 190, 241);
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.pFooter {
+    background-color: beige;
+    grid-column: 2/4;
+}
